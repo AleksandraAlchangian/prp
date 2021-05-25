@@ -10,4 +10,5 @@ class RepositoryFirestore {
   getCurrentUser() => firestoreProvider.currentUser;
 
   getUserData(Strinf nickname) => firestoreProvider.getUserData(nickname);
+  delete(){}
 }
